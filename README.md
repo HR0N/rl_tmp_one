@@ -1,6 +1,7 @@
 # React, Laravel. Template 1 👾 
 
-<img src="./logo/React%20logo.png" alt="react"/>
+<img src="./logo/React%20logo.png" alt="React logo"/>
+
 ## React 🤖 
 - npx create-react-app front
 - npm i --save-dev sass
@@ -26,6 +27,7 @@
 
 
 
+<img src="./logo/Laravel%20logo.png" alt="Laravel logo"/>
 
 ## Laravel 🎃
 - composer create-project laravel/laravel back
@@ -57,6 +59,9 @@
 open config/database.php, then
  replace it: 'engine' => null', with it: 'engine' => 'InnoDB ROW_FORMAT=DYNAMIC',
  then php artisan config:cache	
+
+
+<img src="./logo/Sanctum%20logo.jpg" alt="Sanctum logo"/>
 
 ## Sanctum 👽
 - open Kernel, realise it: \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class,
