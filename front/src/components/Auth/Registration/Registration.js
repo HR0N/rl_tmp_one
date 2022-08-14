@@ -8,10 +8,10 @@ function Registration(props) {
         <div className="auth-form registration-form">
             <h3>Registration form</h3>
             <form className={`form-group`}>
-                <input className={`form-control`} type="text" placeholder={`   username`}/>
-                <input className={`form-control`} type="email" placeholder={`   email`}/>
-                <input className={`form-control`} type="password" placeholder={`   password`}/>
-                <input className={`form-control`} type="text" placeholder={`   confirm password`}/>
+                <input className={`form-control`} type="email" placeholder={`   email`} name={`email`}/>
+                <input className={`form-control`} type="text" placeholder={`   username`} name={`username`}/>
+                <input className={`form-control`} type="password" placeholder={`   password`} name={`pass`}/>
+                <input className={`form-control`} type="text" placeholder={`   confirm password`} name={`pass2`}/>
             </form>
             <div className="toggle-form">
                 <div className="buttons">

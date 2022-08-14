@@ -8,8 +8,8 @@ function Login(props) {
         <div className="auth-form login-form">
             <h3>Login form</h3>
             <form className={`form-group`}>
-                <input className={`form-control`} type="text" placeholder={`   username`}/>
-                <input className={`form-control`} type="password" placeholder={`   password`}/>
+                <input className={`form-control`} type="text" placeholder={`   username`} name={`username`}/>
+                <input className={`form-control`} type="password" placeholder={`   password`} name={`pass`}/>
             </form>
             <div className="toggle-form">
                 <div className="buttons">

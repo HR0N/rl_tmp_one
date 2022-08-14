@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/src/components/Auth/Login/Login.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/src/components/Auth/Login/Login.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/src/components/Auth/Registration/Registration.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/front/src/components/Auth/Registration/Registration.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/logo/Laravel logo3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -14,6 +12,8 @@
       <change beforePath="$PROJECT_DIR$/front/src/UXExtra/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/UXExtra/Header/Header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/Auth/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Auth/Auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/components/Auth/Auth.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Auth/Auth.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Auth/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Auth/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Auth/Registration/Registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Auth/Registration/Registration.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logo/Laravel logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logo/Laravel logo2.png" beforeDir="false" />
@@ -183,7 +183,7 @@
       <updated>1660307743095</updated>
       <workItem from="1660307745123" duration="6435000" />
       <workItem from="1660391651764" duration="3303000" />
-      <workItem from="1660469466272" duration="11578000" />
+      <workItem from="1660469466272" duration="12667000" />
     </task>
     <servers />
   </component>
