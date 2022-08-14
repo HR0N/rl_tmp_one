@@ -20,8 +20,8 @@ class App extends Component{
         <div className={'App'}>
           <Header/>
           <Routes>
-            <Route exact path={'/'} element={<Home/>}/>
-            <Route exact path={'/auth'} element={<Auth/>}/>
+            <Route exact={true} path={'/'} element={<Home/>}/>
+            <Route exact={true} path={'/auth'} element={<Auth/>}/>
           </Routes>
         </div>
     );

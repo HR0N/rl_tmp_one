@@ -8,8 +8,8 @@ import {connect} from 'react-redux';
 function Header() {
     return(        <header className={`Header `}>
         <nav className={`nav`}>
-            <div className="nav-auth"><NavLink to={"/home"}  exact="true">Home</NavLink></div>
-            <div className="nav-auth"><NavLink to={"/auth"}  exact="true">Auth</NavLink></div>
+            <div className="nav-item nav-home"><NavLink to={"/"}  exact="true">Home</NavLink></div>
+            <div className="nav-item nav-auth"><NavLink to={"/auth"}  exact="true">Auth</NavLink></div>
         </nav>
     </header>);
 }

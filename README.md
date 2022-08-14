@@ -1,5 +1,8 @@
 # React, Laravel. Template one 👾 
 
+
+
+
 <img src="./logo/React%20logo.png" alt="React logo" style="width: 420px"/>
 
 ## React 🤖 
@@ -22,8 +25,6 @@
 - import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 - <FontAwesomeIcon className={`faCaretLeft`} icon={faCaretLeft}/>
 - // shadow for SVG => filter: drop-shadow(1px 1px 2px black);
-
-
 
 
 
@@ -59,6 +60,8 @@
 open config/database.php, then
  replace it: 'engine' => null', with it: 'engine' => 'InnoDB ROW_FORMAT=DYNAMIC',
  then php artisan config:cache	
+
+
 
 
 <img src="./logo/Sanctum%20logo.png" alt="Sanctum logo" style="width: 420px"/>
