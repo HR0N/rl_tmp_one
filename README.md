@@ -1,6 +1,6 @@
 # React, Laravel. Template 1 👾 
 
-<img src="./logo/React%20logo.png" alt="React logo"/>
+<img src="./logo/React%20logo.png" alt="React logo" style="width: 420px"/>
 
 ## React 🤖 
 - npx create-react-app front
@@ -27,7 +27,7 @@
 
 
 
-<img src="./logo/Laravel%20logo.png" alt="Laravel logo"/>
+<img src="./logo/Laravel%20logo.png" alt="Laravel logo" style="width: 420px"/>
 
 ## Laravel 🎃
 - composer create-project laravel/laravel back
@@ -61,7 +61,7 @@ open config/database.php, then
  then php artisan config:cache	
 
 
-<img src="./logo/Sanctum%20logo.jpg" alt="Sanctum logo"/>
+<img src="./logo/Sanctum%20logo.jpg" alt="Sanctum logo" style="width: 420px"/>
 
 ## Sanctum 👽
 - open Kernel, realise it: \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class,
