@@ -1,6 +1,6 @@
 # React, Laravel. Template 1 👾 
 
-![Alt text](./logo/Laravel logo.png?raw=true "Title")
+<img src="./logo/React%20logo.png" alt="react"/>
 ## React 🤖 
 - npx create-react-app front
 - npm i --save-dev sass
