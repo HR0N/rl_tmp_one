@@ -27,7 +27,7 @@
 
 
 
-<img src="./logo/Laravel%20logo2.png" alt="Laravel logo" style="width: 420px"/>
+<img src="./logo/Laravel%20logo3.png" alt="Laravel logo" style="width: 420px"/>
 
 ## Laravel 🎃
 - composer create-project laravel/laravel back

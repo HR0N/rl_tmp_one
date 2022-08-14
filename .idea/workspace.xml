@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/logo/Laravel logo3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logo/Laravel logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/logo/Laravel logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logo/React logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/logo/React logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logo/Sanctum logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/logo/Sanctum logo.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +170,7 @@
       <updated>1660307743095</updated>
       <workItem from="1660307745123" duration="6435000" />
       <workItem from="1660391651764" duration="3303000" />
-      <workItem from="1660469466272" duration="5640000" />
+      <workItem from="1660469466272" duration="6663000" />
     </task>
     <servers />
   </component>
