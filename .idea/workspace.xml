@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/front/src/sublimate/input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/src/sublimate/validator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/back/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/config/cors.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/config/cors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/config/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/UXExtra/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/UXExtra/Footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Footer/Footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/UXExtra/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/UXExtra/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Auth/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Auth/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Auth/Login/Login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Auth/Login/Login.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Auth/Registration/Registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Auth/Registration/Registration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Auth/Registration/Registration.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Auth/Registration/Registration.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,13 +166,14 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\HRON\OpenServer\domains\React Laravel template 1\back\app\Http\Controllers" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\HRON\OpenServer\domains\React Laravel template 1\front\src\components" />
       <recent name="C:\HRON\OpenServer\domains\React Laravel template 1\front\src\UXExtra" />
       <recent name="C:\HRON\OpenServer\domains\React Laravel template 1\back\app\Http\Controllers" />
       <recent name="C:\HRON\OpenServer\domains\React Laravel template 1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\HRON\OpenServer\domains\React Laravel template 1\back\app\Http\Controllers" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -184,7 +193,9 @@
       <workItem from="1660655258747" duration="235000" />
       <workItem from="1660655520849" duration="225000" />
       <workItem from="1660656646140" duration="2251000" />
-      <workItem from="1660659181826" duration="280000" />
+      <workItem from="1660659181826" duration="1207000" />
+      <workItem from="1660661506547" duration="788000" />
+      <workItem from="1660734551063" duration="8396000" />
     </task>
     <servers />
   </component>
@@ -210,5 +221,40 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1660475299568" />
+    <state x="330" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1660743079041">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="330" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1660743079041" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/front/src/components/Auth/Registration/Registration.js</url>
+          <line>39</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/front/src/components/Auth/Registration/Registration.js</url>
+          <line>48</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/front/src/components/Auth/Registration/Registration.js</url>
+          <line>59</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <condition expression="label 1" language="JavaScript" />
+          <url>file://$PROJECT_DIR$/front/src/components/Auth/Registration/Registration.js</url>
+          <line>30</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -25,11 +25,11 @@ class apiClient {
                     })
             });
     }
-    registration(log, pas){
+    registration(name, log, pas, pas2){
         this.axios.get('sanctum/csrf-cookie')
             .then(res => {
                 this.axios.post('api/register',
-                    {name: 'HR0N', email: log, password: pas, password_confirmation: pas})
+                    {name: name, email: log, password: pas, password_confirmation: pas2})
                     .then(res =>{
                         console.log(res);
                     })

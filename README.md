@@ -8,7 +8,7 @@
 ## React 🤖 
 - npx create-react-app front
 - npm i --save-dev sass
-- npm i react-router-dom axios redux react-redux redux-thunk react-localization h-bootstrap --save
+- npm i react-router-dom axios redux react-redux redux-thunk react-localization h-bootstrap validator --save
 - npm run start || yarn start
 - npm run build
 - axios.defaults.withCredentials = true;
