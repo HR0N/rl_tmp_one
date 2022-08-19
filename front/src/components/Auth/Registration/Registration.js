@@ -3,9 +3,11 @@ import "./Registration.scss";
 import {connect}      from 'react-redux';
 import InputClass     from "../../../sublimate/input";
 import ValidatorClass from "../../../sublimate/validator";
+import ApiClient from "../../../services/api";
 
-const input    = new InputClass();
-const validate = new ValidatorClass();
+const input     = new InputClass();
+const validate  = new ValidatorClass();
+const apiClient = new ApiClient();
 
 
 function Registration(props) {
@@ -15,12 +17,22 @@ function Registration(props) {
     const regPass2    = input.init("");
 
     const fully_validate = ()=>{
-        if(validate.isEmail(regEmail.val)
+        return(validate.isEmail(regEmail.val)
             && validate.isLength(regUsername.val, 2, 20)
             && validate.isLength(regPass.val, 4, 33)
             && validate.isAlphanumeric(regPass.val)
-            && validate.isPasEquals(regPass.val, regPass2.val)){
-            console.log('all true');
+            && validate.isPasEquals(regPass.val, regPass2.val))
+    };
+
+    const register = () => {
+        if(fully_validate()){
+            let data = {
+                name:  validate.escape(validate.trim(regUsername.val)),
+                email: validate.escape(validate.trim(regEmail.val)),
+                pass:  validate.escape(validate.trim(regPass.val)),
+                pass2: validate.escape(validate.trim(regPass2.val)),
+            };
+            apiClient.registration(data);
         }
     };
 
@@ -73,7 +85,7 @@ function Registration(props) {
                          onClick={()=>{props.set_login_toggle(true)}}
                     >Sign in</div>
                     <div className={`btn btn-info auth-form__button auth-form__registration`}
-                    onClick={()=>{fully_validate()}}
+                    onClick={()=>{register()}}
                     >Register</div>
                 </div>
             </div>

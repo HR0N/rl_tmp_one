@@ -3,9 +3,11 @@ import "./Login.scss";
 import {connect}      from 'react-redux';
 import InputClass     from "../../../sublimate/input";
 import ValidatorClass from "../../../sublimate/validator";
+import ApiClient from "../../../services/api";
 
-const input    = new InputClass();
-const validate = new ValidatorClass();
+const input     = new InputClass();
+const validate  = new ValidatorClass();
+const apiClient = new ApiClient();
 
 
 function Login(props) {
@@ -13,10 +15,18 @@ function Login(props) {
     const logPass  = input.init("");
 
     const fully_validate = ()=>{
-        if(validate.isEmail(logEmail.val)
+        return(validate.isEmail(logEmail.val)
             && validate.isLength(logPass.val, 4, 33)
-            && validate.isAlphanumeric(logPass.val)){
-            console.log('all true');
+            && validate.isAlphanumeric(logPass.val))
+    };
+
+    const login = () => {
+        if(fully_validate()){
+            let data = {
+                email: validate.escape(validate.trim(logEmail.val)),
+                pass:  validate.escape(validate.trim(logPass.val)),
+            };
+            apiClient.login(data);
         }
     };
 
@@ -44,7 +54,9 @@ function Login(props) {
                     <div className={`btn auth-form__button auth-form__toggle_form`}
                     onClick={()=>{props.set_login_toggle(false)}}
                     >Register</div>
-                    <div className={`btn btn-info auth-form__button auth-form__login`}>Login</div>
+                    <div className={`btn btn-info auth-form__button auth-form__login`}
+                    onClick={()=>{login()}}
+                    >Login</div>
                 </div>
             </div>
         </div>

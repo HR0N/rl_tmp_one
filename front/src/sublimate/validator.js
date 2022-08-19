@@ -8,7 +8,9 @@ class ValidatorClass {
     isAlphanumeric = val => validator.isAlphanumeric(val);  // check if the string contains only letters and numbers (a-zA-Z0-9).
     isEmpty = val => validator.isEmpty(val);    //
     isStrongPassword = ()=>{};  //
-    sanitizer = (val)=>{};  // trim
+    blacklist = (val, chars) => validator.blacklist(val, chars);  // remove characters that appear in the blacklist.
+    escape = (val) => validator.escape(val);  // replace <, >, &, ', " and / with HTML entities.
+    trim = (val, chars) => validator.trim(val, chars);  // trim characters (whitespace by default) from input.
 
     /* return comments */
     isEmailMsg = val => this.isEmail(val) ? '' : "email invalid";

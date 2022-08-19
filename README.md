@@ -12,6 +12,7 @@
 - npm run start || yarn start
 - npm run build
 - axios.defaults.withCredentials = true;
+- create .env > put in: GENERATE_SOURCEMAP=false
 ##### Optional
 - npm install jquery --save
 - npm i h-bootstrap
@@ -50,9 +51,10 @@
 - php artisan migrate
 - php artisan route:list
 ##### Settings
-- back > config > cors.php > 'supports_credentials' => true,
 - back > config > cors.php > 'allowed_origins' => ['https://example.com'],
-
+- back > config > cors.php > 'supports_credentials' => true,
+#### Deploy
+- check both .htaccess: root, public
 #### Problems
 ##### Can't install laravel using composer
 - composer create-project laravel/laravel example --ignore-platform-req=php

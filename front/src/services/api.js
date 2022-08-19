@@ -1,9 +1,9 @@
 import axios from 'axios';
 
-class apiClient {
+class ApiClient {
     constructor() {
         this.devUrl = "http://127.0.0.1:8000/";
-        this.prodUrl = "https://example.com/";
+        this.prodUrl = "https://temp1b.evilcode.space/";
 
         this.axios = axios.create({
             baseURL: this.prodUrl,
@@ -11,25 +11,25 @@ class apiClient {
             headers: {
                 'X-Requested-Width': 'XMLHttpRequest',
             },
-            withCredentials: false,     // todo: toggle if u need/not safe mode (safe mode not working on localhost)
+            withCredentials: true,
         });
     }
-    login(log, pas, cb = ()=>{}, cb2 = ()=>{}){
+    login(data){
+        let {email, pass} = data;
         this.axios.get('sanctum/csrf-cookie')
             .then(res => {
-                this.axios.post('api/login', {email: log, password: pas})
+                this.axios.post('api/login', {email: email, password: pass})
                     .then(res =>{
                         console.log(res);
-                        cb(res.data.user);
-                        cb2(res.data.token);
                     })
             });
     }
-    registration(name, log, pas, pas2){
+    registration(data){
+        let {name, email, pass, pass2} = data;
         this.axios.get('sanctum/csrf-cookie')
             .then(res => {
                 this.axios.post('api/register',
-                    {name: name, email: log, password: pas, password_confirmation: pas2})
+                    {name: name, email: email, password: pass, password_confirmation: pass2})
                     .then(res =>{
                         console.log(res);
                     })
@@ -51,4 +51,4 @@ class apiClient {
     }
 
 }
-export default apiClient;
+export default ApiClient;
