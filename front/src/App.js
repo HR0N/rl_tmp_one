@@ -6,6 +6,7 @@ import Home from "./components/Home/Home";
 import Auth from "./components/Auth/Auth";
 import Header from "./components/Header/Header";
 
+
 class App extends Component{
 
   componentDidMount() {

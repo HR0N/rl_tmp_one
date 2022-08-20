@@ -1,16 +1,23 @@
-import React          from "react";
+import React, {useState} from "react";
 import "./Login.scss";
 import {connect}      from 'react-redux';
 import InputClass     from "../../../sublimate/input";
 import ValidatorClass from "../../../sublimate/validator";
-import ApiClient from "../../../services/api";
+import ApiClient      from "../../../services/api";
+import BigPopup       from "../../../sublimate/popup/BigPopup";
+import Errors from "../../../sublimate/errors";
 
 const input     = new InputClass();
 const validate  = new ValidatorClass();
 const apiClient = new ApiClient();
+const errors    = new Errors();
+
+
 
 
 function Login(props) {
+    const [authError, setAuthError] = useState(false);
+
     const logEmail = input.init("");
     const logPass  = input.init("");
 
@@ -21,16 +28,27 @@ function Login(props) {
     };
 
     const login = () => {
-        if(fully_validate()){
+        if(fully_validate()){//-            -           -           -           -            check all valid
             let data = {
                 email: validate.escape(validate.trim(logEmail.val)),
                 pass:  validate.escape(validate.trim(logPass.val)),
             };
-            apiClient.login(data);
+            apiClient.login(//-             -           -           -           -            call apiClient service
+                data,//-                    -           -           -           -            prop 1 > data
+                (error)=>{if(error) setAuthError(error.response.status);},//     prop 2 > callback if(error)
+                (response)=>{console.log(response);}//-           -            prop 3 > callback if(success)
+                );
         }
     };
 
     return(<div className={`Login`}>
+        <BigPopup
+            status={authError ? true : 0}
+            title={authError ? errors.errors[authError].title : false}
+            text={authError ? errors.errors[authError].message : false}
+            callbackClose={()=>{setAuthError(false)}}
+        />
+
         <div className="auth-form login-form">
             <h3>Login form</h3>
             <form className={`form-group`}>
@@ -55,7 +73,9 @@ function Login(props) {
                     onClick={()=>{props.set_login_toggle(false)}}
                     >Register</div>
                     <div className={`btn btn-info auth-form__button auth-form__login`}
-                    onClick={()=>{login()}}
+                    onClick={()=>{
+                        login();
+                    }}
                     >Login</div>
                 </div>
             </div>

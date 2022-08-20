@@ -17,6 +17,8 @@
 - npm install jquery --save
 - npm i h-bootstrap
 - npm i bootstrap
+#### Deploy
+- check .htaccess
 ##### React Font Awesome
 - npm i --save @fortawesome/fontawesome-svg-core
 - npm install --save @fortawesome/free-solid-svg-icons
@@ -73,5 +75,5 @@ open config/database.php, then
 - composer require laravel/ui
 - php artisan ui:auth
 - config/cors: 'supports_credentials' => true,
-- also in axios: axios.defaults.withCredentials = true;
+- also check axios: axios.defaults.withCredentials = true;
 
