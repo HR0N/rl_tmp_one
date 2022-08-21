@@ -28,15 +28,15 @@ function Login(props) {
     };
 
     const login = () => {
-        if(fully_validate()){//-            -           -           -           -            check all valid
+            if(fully_validate()){//                                                          check all valid
             let data = {
                 email: validate.escape(validate.trim(logEmail.val)),
                 pass:  validate.escape(validate.trim(logPass.val)),
             };
-            apiClient.login(//-             -           -           -           -            call apiClient service
-                data,//-                    -           -           -           -            prop 1 > data
+                apiClient.login(//                                                           call apiClient service
+                data,//                                                                      prop 1 > data
                 (error)=>{if(error) setAuthError(error.response.status);},//     prop 2 > callback if(error)
-                (response)=>{console.log(response);}//-           -            prop 3 > callback if(success)
+                (response)=>{console.log(response);}//                         prop 3 > callback if(success)
                 );
         }
     };

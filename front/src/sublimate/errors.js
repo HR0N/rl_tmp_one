@@ -20,7 +20,7 @@ export default class Errors {
             416: {title: '416 Range Not Satisfiable', message: 'range not reachable'},
             417: {title: '417 Expectation Failed', message: 'wait failed'},
             418: {title: '418 I’m a teapot', message: 'i am teapot'},
-            419: {title: '419 Authentication Timeout (not in RFC 2616)', message: 'usually CSRF validation error'},
+            419: {title: '419 Authentication Timeout', message: 'usually CSRF validation error'},
             421: {title: '421 Misdirected Request', message: false},
             422: {title: '422 Unprocessable Entity', message: 'raw instance'},
             423: {title: '423 Locked', message: 'blocked'},
