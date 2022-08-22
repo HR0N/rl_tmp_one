@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/back/resources/views/email-template.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/components/Auth/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Auth/Login/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/sublimate/errors.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/sublimate/errors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/sublimate/popup/Popup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/sublimate/popup/Popup.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/resources/views/email-template.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/resources/views/email-template.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +184,8 @@
       <workItem from="1660734551063" duration="9547000" />
       <workItem from="1660911054550" duration="7715000" />
       <workItem from="1660993067840" duration="19511000" />
-      <workItem from="1661083706370" duration="3104000" />
+      <workItem from="1661083706370" duration="3929000" />
+      <workItem from="1661176319747" duration="561000" />
     </task>
     <servers />
   </component>
