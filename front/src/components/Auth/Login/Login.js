@@ -23,7 +23,7 @@ function Login(props) {
 
     const fully_validate = ()=>{
         return(validate.isEmail(logEmail.val)
-            && validate.isLength(logPass.val, 4, 33)
+            && validate.isLength(logPass.val, 8, 33)
             && validate.isAlphanumeric(logPass.val))
     };
 
@@ -59,7 +59,7 @@ function Login(props) {
                            onBlur={(e)=>{logEmail.onBlur(e)}}
                            className={`form-control`} type="email" placeholder={`   email`} name={`email`}/>
                 </label>
-                <label><span className={`validate_error`}>{logPass.touched ? validate.isLengthMsg(logPass.val, 4, 33)
+                <label><span className={`validate_error`}>{logPass.touched ? validate.isLengthMsg(logPass.val, 8, 33)
                     : false}</span>
                     <input onChange={(e)=>{logPass.onChange(e)}}
                            value={logPass.val}

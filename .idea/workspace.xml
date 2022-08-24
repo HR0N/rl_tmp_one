@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc7846bd-ad00-4195-a9e4-3e3764461d52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/back/app/Http/Controllers/VerifyEmailController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/css/main.1fd309ef.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/css/main.1fd309ef.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.36379a5e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.36379a5e.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/static/js/main.36379a5e.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/resources/views/email-template.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/resources/views/email-template.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/app/Http/Controllers/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/app/Http/Controllers/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/back/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.2b738ae1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/css/main.2b738ae1.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.a7e52eab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.a7e52eab.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/build/static/js/main.a7e52eab.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Auth/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Auth/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/components/Auth/Registration/Registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/components/Auth/Registration/Registration.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +204,9 @@
       <workItem from="1660911054550" duration="7715000" />
       <workItem from="1660993067840" duration="19511000" />
       <workItem from="1661083706370" duration="3929000" />
-      <workItem from="1661176319747" duration="561000" />
+      <workItem from="1661176319747" duration="816000" />
+      <workItem from="1661259357275" duration="25000" />
+      <workItem from="1661348894489" duration="6428000" />
     </task>
     <servers />
   </component>
@@ -203,10 +224,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1661092456937" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1660744514017">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1661259383539">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1660744514017" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1661259383539" />
     <state x="492" y="227" key="NewPhpClassDialog" timestamp="1661093466734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -219,10 +240,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="330" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1660743079041" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1660998849270">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1661358981495">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1660998849270" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1661358981495" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1660999719062">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

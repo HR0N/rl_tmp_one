@@ -19,7 +19,7 @@ function Registration(props) {
     const fully_validate = ()=>{
         return(validate.isEmail(regEmail.val)
             && validate.isLength(regUsername.val, 2, 20)
-            && validate.isLength(regPass.val, 4, 33)
+            && validate.isLength(regPass.val, 8, 33)
             && validate.isAlphanumeric(regPass.val)
             && validate.isPasEquals(regPass.val, regPass2.val))
     };
@@ -59,10 +59,10 @@ function Registration(props) {
                            className={`form-control`} type="text" placeholder={`   username`} name={`username`}/>
                 </label>
                 <label>{/*  ..:: label 3 ::..*/}
-                    <span className={`validate_error`}>{regPass.touched ? validate.isLengthMsg(regPass.val, 4, 33)
+                    <span className={`validate_error`}>{regPass.touched ? validate.isLengthMsg(regPass.val, 8, 33)
                     : false}</span>
-                    <span className={`validate_error`}>{(regPass.touched && validate.isLength(regPass.val, 4, 33))
-                        ? validate.isAlphanumericMsg(regPass.val, 4, 33) : false}</span>
+                    <span className={`validate_error`}>{(regPass.touched && validate.isLength(regPass.val, 8, 33))
+                        ? validate.isAlphanumericMsg(regPass.val) : false}</span>
                     <input
                            onChange={(e)=>{regPass.onChange(e)}}
                            value={regPass.val}

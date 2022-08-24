@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
+use Illuminate\Auth\Events\Registered;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 
@@ -20,6 +21,8 @@ class AuthController extends Controller
             'email' => $fields['email'],
             'password' => bcrypt($fields['password'])
         ]);
+
+        event(new Registered($user));
 
         $token = $user->createToken('myapptoken')->plainTextToken;
 

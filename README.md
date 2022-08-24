@@ -52,6 +52,9 @@
 - php artisan make:migration create_example_table
 - php artisan migrate
 - php artisan route:list
+##### for register verify
+- next https://stackoverflow.com/questions/65285530/laravel-8-rest-api-email-verification
+- set .env | example: FRONT_URL=https://example.com
 ##### Settings
 - back > config > cors.php > 'allowed_origins' => ['https://example.com'],
 - back > config > cors.php > 'supports_credentials' => true,
